@@ -112,6 +112,29 @@ header .head-top .head-active::after{
 .note-title,.note-article,.note-node,.comment{
     padding: .8rem;
 }
+.shuidi{
+    transform: scale(.6);
+    position: absolute;
+    top: 15%;
+    color: #fff;
+    left: -20%;
+    display: inline-block;
+    background: url('../images/icon/水滴@3x.png');
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+.shuidi span{
+    margin-left: .8rem;
+}
+.grade{
+    position: absolute;
+    top: 16%;
+    color: #ffa518;
+    font-size: 1rem;
+    transform: scale(.6);
+    display: inline-block;
+}
 .note-label .label-item img{
     width: 100%;
     /* transform: scale(.6) */
@@ -151,7 +174,9 @@ header .head-top .head-active::after{
     border-radius: 8px;
     margin-bottom: 1.5rem;
 }
-
+.home-box{
+    padding-bottom: 6rem;
+}
 /* 评论区 s*/
 .comment .comment-name{
     color: #ff9c00;
@@ -171,6 +196,7 @@ header .head-top .head-active::after{
     top: 1rem;
     left: 1rem;
     border-radius: 1.5rem;
+    width: 5rem;
 }
 /* 直播 e */
 /* 帖子/视频/直播 e */
