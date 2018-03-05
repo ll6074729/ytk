@@ -1,0 +1,208 @@
+/* 公用 */
+html,body{
+    font-size: 12px;
+}
+.pr{
+    position: relative;
+}
+.ov1{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+/* 头部 s */
+header .head-top{
+    text-align: center;
+    padding: 0.83rem 0 ;
+    background-image: linear-gradient(101deg, 
+		#ff5c95 0%, 
+		#ff867d 100%);
+	box-shadow: 0px 0px 10px 0px 
+        rgba(104, 104, 104, 0.34);
+        color: #fff;
+}
+header .head-top .head-active::after{
+    height:3px;
+    width: 2.5rem;
+    background: #fff;
+    border-radius:10px;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    content: "";
+    margin-left: -1.25rem;
+}
+.head-top .layui-col-xs2 img{
+    /* transform: scale(.5) */
+    width: 2rem;
+}
+/* 中间内容 s*/
+/* 内容头部 s */
+.home-box .home-box-title{
+    text-align: center;
+    
+}
+.home-box .home-box-title .box-title{
+    font-size: 1.16rem;
+    padding: 1.3rem 0;
+    box-shadow: 0px 6px 8px 0px 
+		rgba(104, 104, 104, 0.06);
+}
+.box-title .title-item-active{
+    color: #ff407f;
+}
+.swiper-circle{
+    padding: 1rem 0!important;
+}
+.swiper-circle .swiper-slide{
+    box-sizing: border-box;
+    padding: 0 .5rem;
+}
+/* 热门头部img */
+.hot .swiper-circle .circle-img{
+    width: 100%;
+    border-radius: 1rem;
+}
+/* 关注头部img */
+.follow .swiper-circle .circle-img{
+    width: 100%;
+    border-radius: 50%;
+}
+.swiper-circle .swiper-slide p{
+    font-size: 1rem;
+    margin: .3rem;
+}
+.swiper-circle .swiper-slide span{
+    font-size: 1rem;
+    color: #999;
+}
+
+/* 轮播广告 s */
+.swiper-img{
+    box-shadow: 0px 0px 10px 0px 
+		rgba(104, 104, 104, 0.99);
+}
+.swiper-img img{
+    width: 100%;
+}
+/* 轮播广告 e */
+
+
+/* 帖子/视频/直播 s */
+/* 共用部分 */
+.note-list{
+    padding: 2rem 1rem 1rem;
+}
+.note-list .note-title .note-headimg img{
+    border-radius: 50%;
+    padding: .5rem;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    top: -1rem;
+}
+.note-title{
+    padding-bottom: 0!important;
+}
+.note-articl-title{
+    padding-bottom: .8rem;
+    white-space : nowrap 
+}
+.note-title,.note-article,.note-node,.comment{
+    padding: .8rem;
+}
+.note-label .label-item img{
+    width: 100%;
+    /* transform: scale(.6) */
+}
+.note-article .note-article-tip{
+    font-size: 1rem;
+    border: 1px solid red;
+    padding: .2rem;
+    color: red;
+}
+.note-article .ov1{
+    margin-left: .5rem;
+    font-size: 1.41rem;
+    font-weight: 500;
+}
+.note-article-text{
+    font-size: 1.16;
+    color: #666;
+}
+.note-node{
+    color: #999;
+    border-bottom: 1px solid #eee;
+}
+.note-node .note-theme{
+    color: #ffa320
+}
+.note-node .note-address {
+    background-color: #e1f6ff;
+    padding: .1rem .3rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+.note-list-item{
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 16px 0px 
+		rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+/* 评论区 s*/
+.comment .comment-name{
+    color: #ff9c00;
+}
+.comment .comment-more{
+    color: #999;
+    padding-top: .5rem;
+}
+/* 评论区 e */
+/* 共用部分 e */
+/* 直播 s */
+.note-box-live video{
+    width: 100%
+}
+.note-box-live .icon-live{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 1.5rem;
+}
+/* 直播 e */
+/* 帖子/视频/直播 e */
+
+/* 内容头部 e */
+
+
+/* 底部按钮 s */
+footer{
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 0px 8px 0px 
+		rgba(104, 104, 104, 0.34);
+}
+footer ul{
+    text-align: center;
+    padding-top: .5rem;
+}
+footer ul li{
+    display: inline-block;
+    width: 19%;
+}
+footer ul li p{
+    margin: .5rem 0;
+}
+footer ul li:nth-child(3) img{
+    position: absolute;
+    bottom: 2rem;
+    margin-left: -27.5px;
+}
+/* 底部按钮 e */
