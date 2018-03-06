@@ -1,0 +1,13 @@
+html,.f12{
+    font-size: 12px;
+}
+
+/* 头部 s */
+header{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.125rem 0;
+    box-shadow: 0px 3px 10px 0px 
+		rgba(110, 110, 110, 0.13);
+}
+/* 头部 e */
