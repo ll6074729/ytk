@@ -1,0 +1,55 @@
+/* 头部 s */
+header .head-top{
+    text-align: center;
+    padding: 0.83rem 0 ;
+    background-image: linear-gradient(101deg, 
+		#ff5c95 0%, 
+		#ff867d 100%);
+	box-shadow: 0px 0px 10px 0px 
+        rgba(104, 104, 104, 0.34);
+        color: #fff;
+}
+header .head-top .head-active::after{
+    height:3px;
+    width: 2.5rem;
+    background: #fff;
+    border-radius:10px;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    content: "";
+    margin-left: -1.25rem;
+}
+.head-top .layui-col-xs2 img{
+    /* transform: scale(.5) */
+    width: 2rem;
+}
+/* 头部 e */
+/* 底部按钮 s */
+footer{
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 0px 8px 0px 
+		rgba(104, 104, 104, 0.34);
+}
+footer ul{
+    text-align: center;
+    padding-top: .5rem;
+}
+footer ul li{
+    display: inline-block;
+    width: 19%;
+}
+footer ul li p{
+    margin: .5rem 0;
+}
+footer ul li:nth-child(3) img{
+    position: absolute;
+    bottom: 2rem;
+    margin-left: -27.5px;
+}
+/* 底部按钮 e */

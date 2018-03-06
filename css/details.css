@@ -1,0 +1,329 @@
+html,.f12{
+    font-size: 12px;
+}
+.ov1{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.pr{
+    position: relative;
+}
+.hr{
+    height: .5rem;
+    background: #f7f7f7;
+}
+.tr{
+    text-align: right
+}
+.ft{
+    float: left;
+}
+/* 头部 s */
+header{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.125rem 0;
+    box-shadow: 0px 3px 10px 0px 
+		rgba(110, 110, 110, 0.13);
+}
+/* 头部 e */
+/* 中间内容 s*/
+#shop-img{
+
+}
+#shop-img .swiper-slide img{
+    width: 100%;
+}
+#shop-img .shop-img-page{
+    position: absolute;
+    bottom: 1rem;
+    left: 85%;
+    width: 3rem;
+    text-align: center;
+    z-index: 100;
+    padding: .3rem;
+    color: #fff;
+    background-color: rgba(27, 27, 27, 0.5);
+	border-radius: 6px;
+	opacity: 0.5;
+}
+/* 中间内容 e */
+.note-list .note-title .note-headimg img{
+    border-radius: 50%;
+    padding: .5rem;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    top: -1rem;
+}
+.note-title{
+    padding-bottom: 0!important;
+}
+.note-articl-title{
+    padding-bottom: .8rem;
+    white-space : nowrap 
+}
+.note-headimg img{
+    width: 100%;
+    border-radius: 50%;
+}
+.note-title,.note-article,.note-node,.comment{
+    padding: .8rem;
+}
+.shuidi{
+    transform: scale(.6);
+    position: absolute;
+    top: 15%;
+    color: #fff;
+    left: -20%;
+    display: inline-block;
+    background: url('../images/icon/水滴@3x.png');
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+.shuidi span{
+    margin-left: .8rem;
+}
+.grade{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #ffa518;
+    font-size: 1rem;
+    transform: scale(.6);
+    display: inline-block;
+}
+.note-label .label-item img{
+    width: 100%;
+}
+.note-title .follow{
+    margin-top: 1rem;
+    text-align:center
+}
+.note-title .follow a{
+    color: #fff;
+    padding: .5rem;
+    background-image: linear-gradient(0deg, 
+		#ff638e 0%, 
+		#ff7f93 100%), 
+	linear-gradient(
+		#ff5d93, 
+		#ff5d93);
+	background-blend-mode: normal, 
+		normal;
+	box-shadow: 0px 1px 4px 0px 
+		rgba(147, 0, 67, 0.14);
+	border-radius: 25px;
+}
+
+/* 商品信息 s */
+.shop-title,.format-box,.assess,.relevant{
+    padding: 0 1rem;
+}
+.shop-title .shop-title-head{
+    font-size: 1.41rem;
+    font-weight: 500;
+}
+.shop-title .shop-title-tip{
+    /* float: left; */
+    margin-right: .5rem;
+}
+.shop-title .shop-title-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.shop-title-box,.shop-price{
+    color: #666;
+    padding: .3rem 0;
+
+}
+
+/* 商品介绍文字 s */
+.shop-babel{
+    color:#ff9c00;font-size:1.1rem;
+}
+.shop-sell-price{
+    color:#ff407f;
+}
+.shop-sell-price span{
+    font-size:1.66rem
+}
+.shop-cost-price {
+    font-size:1.2rem;text-decoration: line-through;
+}
+.shop-text-hide{
+    opacity:0;font-size:1.66rem
+}
+/* 商品介绍文字 e */
+/* 规格 s */
+.format{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ebebeb;
+}
+/* 规格 e */
+/* 评价 s */
+.title-label::before{
+    content: " ";
+    width: .3rem;
+    height: 2rem;
+    background: red;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.title-label{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-left: 1rem;
+}
+/* 中间的标题 */
+.assess-box{
+    padding-top: 1rem;
+}
+.assess-title{
+    display: flex;
+    display: -webkit-flex;
+}
+.assess-left{
+    flex: 1;
+    -webkit-flex:1;
+}
+.assess-left img{
+    border-radius: 50%;
+    width: 3rem;
+}
+.assess-right{
+    flex: 6;
+    -webkit-flex:6;
+    line-height: 2.5rem;
+}
+.assess-right p{
+    margin-right: 1rem;
+    color: #ff9c00;
+    font-size: 1.33rem;
+}
+.shuidi-label{
+    background: url(../images/icon/水滴@1x.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    position: absolute;
+    top: 0;
+    left: -20%;
+    color: #fff;
+    transform: scale(.6);
+}
+.shuidi-label .shuidi-num{
+    margin-left: .5rem;
+}
+.grade-num{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(.5);
+    color: #ffa518
+}
+.assess-text{
+    clear: both;
+}
+.assess-more{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.assess-more a{
+    border-radius: 2rem;
+    border: 2px solid #ff407f;
+    padding: .5rem 1rem;
+    color: #ff407f;
+}
+/* 评价 e */
+/* 相关帖子 s */
+.relevant-list{
+    transform: translate(.5rem);
+}
+.relevant-list .relevant-head{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.relevant .relevant-item{
+    width: 48%;
+    /* margin-top: 1.75rem; */
+    box-shadow: 0px 0px 13px 0px 
+		rgba(96, 96, 96, 0.49);
+	border-radius: 10px;
+}
+.relevant-item img{
+    width: 100%;
+}
+.relevant-warp,.relevant-foot{
+    padding:1rem;
+}
+.relevant-user{
+    border-radius: 50%;
+}
+.relevant-like{
+    width: 2rem!important;
+    margin-right: .2rem;
+}
+.relevant-foot{
+    text-align: center;
+    line-height: 2rem;
+}
+/* 相关帖子 e */
+
+
+/* 底部按钮 s */
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffff;
+	box-shadow: 0px -2px 8px 0px 
+		rgba(230, 230, 230, 0.53);
+}
+.foot-left{
+    background: #fff;
+    text-align: center;
+    color: #999;
+}
+.foot-left .foot-label{
+    transform:scale(.8);
+}
+.foot-right{
+    line-height: 4rem;
+}
+.foot-right div:first-child{
+    background-image: linear-gradient(-90deg, 
+		#ffd9e6 0%, 
+        #ffe5ed 100%);
+        color: #ff658d;
+        font-size: 1.25rem;
+        text-align: center
+}
+.foot-right div:last-child{
+    background-image: linear-gradient(36deg, 
+		#ff6e8d 0%, 
+        #ff638e 100%);
+        font-size: 1.25rem;
+        color: #fff;
+        text-align: center
+}
+/* 消息 s */
+.news-num{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.news-num span{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color:#fff
+}
+/* 消息 e */
+/* 底部按钮 e */
+/* 商品信息 e */
