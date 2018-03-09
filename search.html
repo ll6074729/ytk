@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/search.css">
     <!-- layui s -->
     <link rel="stylesheet" href="./layui/css/layui.css">
     <script src="./layui/layui.all.js"></script>
@@ -17,19 +18,280 @@
 </head>
 
 <body>
-    <header class="layui-row">
-        <div class="layui-col-xs1">
-            <a href="javascript:history.back(-1)">
-                <img src="./images/details/返回.png" alt="">
-            </a>
+    <!-- 头部s -->
+    <header class="pf">
+        <div class="head layui-row">
+            <div class="layui-col-xs1">
+                <a href="javascript:history.back(-1)">
+                    <img src="./images/details/返回.png" alt="">
+                </a>
+            </div>
+            <div class="layui-col-xs10 ov1">
+                3段奶粉
+            </div>
+            <div class="layui-col-xs1">
+                <img src="./images/icon/更多@1x.png" alt="">
+            </div>
         </div>
-        <div class="layui-col-xs10 ov1">
-            雪花秀玉容颜撕拉面膜50ml,肌肤重现光彩！你值得拥有
+        <!-- 排序方法 s -->
+        <div class="sort layui-row">
+            <div class="layui-col-xs3 active">
+                <span>综合排序</span>
+            </div>
+            <div class="layui-col-xs3">
+                <span>销量优先</span>
+            </div>
+            <div class="layui-col-xs3 pr sort-price-box">
+                <span>价格</span>
+                <div class="sort-price">
+                    <img src="./images/search/上@1x.png" alt="" data-sort='up'>
+                    <img src="./images/search/下@1x.png" alt="" data-sort='down'>
+                </div>
+                
+            </div>
+            <div class="layui-col-xs3">
+                <span>好评优先</span>
+            </div>
         </div>
-        <div class="layui-col-xs1">
-            <img src="./images/icon/更多@1x.png" alt="">
-        </div>
+        <!-- 排序方法 e -->
     </header>
+    <!-- 头部 e -->
+    <!-- 商品列表 s -->
+    <section class="sort-list">
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/3.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/6.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">222222222222222222222</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/3.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/6.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/3.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/6.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/3.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+        <div class="sort-item layui-row pr">
+            <div class="layui-col-xs3" style="padding:.5rem">
+                <img src="./images/search/6.jpg" alt="" style="width:100%">
+            </div>
+            <div class="layui-col-xs9 shop">
+                <div class="shop-name">奶粉3段900奶粉3段900至纯婴</span>
+                </div>
+                <div class="shop-tip">
+                    <p>
+                        <span class="sell-price">￥290</span>
+                        <span>原价
+                            <span class="cost-price">￥390</span>
+                        </span>
+                    </p>
+                    <p>
+                        <span>美国</span>
+                        &nbsp;
+                        <span>
+                            <span>65</span>人已购买</span>
+                    </p>
+                </div>
+            </div>
+            <div class="shop-cart">
+                <img src="./images/search/加入购物车@1x.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- 商品列表 e -->
 </body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+    // 顶部排序切换
+    $(".sort div").click(function(){
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+        $('.sort-price').children("img:last-child").attr('src','./images/search/下@1x.png');
+        $('.sort-price').children("img:first-child").attr('src','./images/search/上@1x.png');
+    })
+    // 价格排序
+    var priceNum = 0;
+    $('.sort-price-box').click(function(){
+        priceNum++;
+        $('.sort-price').children("img:first-child").attr('src','./images/search/上选中@1x.png');
+        if(priceNum%2 == 0 ){
+            $('.sort-price').children("img:last-child").attr('src','./images/search/下选中@1x.png');
+            $('.sort-price').children("img:first-child").attr('src','./images/search/上@1x.png');
+        }else{
+            $('.sort-price').children("img:last-child").attr('src','./images/search/下@1x.png');
+            $('.sort-price').children("img:first-child").attr('src','./images/search/上选中@1x.png');
+        }
+    })
+</script>
 
 </html>

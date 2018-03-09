@@ -1,13 +1,129 @@
 html,.f12{
     font-size: 12px;
+    font-family: PingFang-SC-Medium;
 }
-
+.pr{
+    position: relative;
+}
+.pf{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8.3rem;
+}
+/* 屏幕大小 s */
+/* 320 */
+@media screen and (max-width:320px){
+    .shop .shop-tip p{
+        font-size: 12px;
+    }
+    .sell-price{
+        font-size: 1.5rem;
+        color: #ff407f;
+    }
+}
+/* 375 */
+@media screen and (max-width:375px) and (min-width:321px){
+    .shop .shop-name{
+        font-size: 1.4rem;
+    }
+    .shop .shop-tip p{
+        font-size: 12px;
+    }
+    .sell-price{
+        font-size: 1.5rem;
+        color: #ff407f;
+    }
+}
+@media screen and (max-width:414px) and (min-width:376px){
+    .shop .shop-name{
+        font-size: 1.5rem;
+    }
+    .shop .shop-tip p{
+        font-size: 14px;
+    }
+    .sell-price{
+        font-size: 1.8rem;
+        color: #ff407f;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:600px){
+    .shop .shop-name{
+        font-size: 3rem;
+    }
+    .shop .shop-tip p{
+        font-size: 28px;
+    }
+    .sell-price{
+        font-size: 3rem;
+        color: #ff407f;
+    }
+}
+/* 屏幕大小 e */
 /* 头部 s */
 header{
+    background: #fff;
+    z-index: 100;
+}
+header .head{
     text-align: center;
     font-size: 1.5rem;
-    padding: 1.125rem 0;
-    box-shadow: 0px 3px 10px 0px 
-		rgba(110, 110, 110, 0.13);
+    padding: 1rem 0;
+    box-shadow: 0px 0px 12px 0px 
+		rgba(0, 0, 0, 0.15);
 }
 /* 头部 e */
+/* 排序 s */
+.sort{
+    text-align: center;
+    padding: 1.25rem 0;
+    color: #666666;
+}
+.sort .active{
+    color: #ff4684
+}
+.sort-list{
+    padding: 8.3rem 0 .5rem;
+}
+.sort-list .sort-item{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.sort-list  .sort-item:last-child{
+    border: none;
+}
+.sort-price{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+.sort-price img:first-child{
+    display: block;
+    margin-left: -1px;
+}
+.shop{
+    padding-top: .5rem;
+}
+.shop-name{
+    /* height: 3.5rem; */
+}
+.shop-name span{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.shop .shop-tip{
+    font-size: 1rem;
+    color: rgb(153,153,153)
+}
+.cost-price{
+    text-decoration: line-through;
+}
+.shop-cart{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+/* 排序 e */
